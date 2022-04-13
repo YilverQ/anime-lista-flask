@@ -5,6 +5,9 @@
 
 body{
 	background: #2F754B;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 article{
@@ -30,9 +33,14 @@ section.main h3{
 	padding: 5px;
 }
 
+.MENU{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
 
 ul{
-	margin: 400px 0px 0px 0px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
