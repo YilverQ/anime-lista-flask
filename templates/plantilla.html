@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista</title>
+	<link rel="stylesheet" type="text/css" href="../static/estilos/estilos.css">
+</head>
+<body>
+
+	<article>
+		<section class="main">
+			
+			{% for i in contenido %}
+			<div>
+				<img src="../static/img/{{ bloque }}/{{ i }}">
+				<h3>{{ i.replace(".jpg", "").title() }}</h3>
+			</div>
+			{% endfor %}
+
+		</section>
+	</article>
+
+</body>
+</html>
